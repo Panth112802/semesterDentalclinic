@@ -32,9 +32,8 @@ public class PatientControllerImp implements IPatientController{
 
 
 	
-	public Patient addPatient(Patient patient) {
+	public void addPatient(Patient patient) {
 	   patientlist.add(patient);
-		return null;
 	}
 
 

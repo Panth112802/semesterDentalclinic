@@ -26,9 +26,9 @@ public class PatientHandler implements PatientHandlerInterface {
 			String firstName = rs.getString("FirstName");
 			String lastName = rs.getString("lastName");
 			String CprNo = rs.getString("CprNo");
-			String phoneNumber = rs.getString("Phone Number");
+			String phoneNumber = rs.getString("Phonenumber");
 			String Email= rs. getString("Email");
-			String Address= rs.getString("Address");
+			//String Address= rs.getString("Address");
 			temp.add(new Patient(firstName, lastName, CprNo, phoneNumber,Email));
 			}
 			}

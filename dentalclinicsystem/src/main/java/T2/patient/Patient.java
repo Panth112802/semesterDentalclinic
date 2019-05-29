@@ -1,9 +1,13 @@
-package T2.patient;
+																																																																								package T2.patient;
 
 import java.io.Serializable;
 
 public class Patient implements IPatient, Serializable{
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -5229731309913331397L;
 	private String FirstName;
 	private String LastName;
 	private String CprNo;

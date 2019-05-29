@@ -11,7 +11,7 @@ public interface IPatientController {
 	
 	public Patient getPatientByCprNo(String CprNumber);
 	
-	public Patient addPatient(Patient patient);
+	public void addPatient(Patient patient);
 	
 	public void removePatient(Patient patient);
 	
